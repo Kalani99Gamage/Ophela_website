@@ -1,0 +1,91 @@
+.footerbgImg{
+    background-image: url("../../../images/footerImage.jpg");
+    object-fit:cover;
+    background-size:cover;
+    opacity: 75%;
+    height: 75vh;
+}
+
+.footerbgText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 100%;
+}
+
+.footerbgTitle{
+    font-size: 2.8rem;
+}
+
+.footerbgp{
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+.mainfooterdiv{
+    background-color: #1d2228;
+}
+
+.subFootrediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subdiv{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 50%;
+}
+
+.footerLogo{
+    width: 70%;
+    color: white;
+}
+
+.footerSection{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.footerTitle{
+    margin: 0;
+    font-size: 1.7rem;
+    line-height: 3rem;
+    font-weight: 600;
+    color: white;
+    padding-left: .5rem;
+}
+
+.footerTextP{
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.8rem;
+    color: #e1e2e2;
+}
+
+.subFooterdiv2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e1e2e2;
+    font-size: .9rem;
+}
+
+.mainTitlediv{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.subTitlediv{
+    background-color: #4c8077;
+    color: #4c8077;
+    width: 3%;
+    height: 65%;
+}
