@@ -43,7 +43,7 @@ function Amenity () {
                     </div>
                 </div>
             </div>
-            <button className="picMoreBtn">DISCOVER MORE</button>
+            <div className="picMoreBtn_main"><button className="picMoreBtn">DISCOVER MORE</button></div>
         </div>
     )
 }

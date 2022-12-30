@@ -1,0 +1,92 @@
+.roomContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;;
+    background-color: #f5f5f5;
+    height: 95vh;
+}
+
+.room_description_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.room_description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 90%;
+}
+
+.topicH1{
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+}
+
+.room_sent{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.room_images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.image_box1,.image_box2,.image_box3{
+    width: 28%;
+    height: 70%;
+}
+
+.rImage1,.rImage2,.rImage3{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.room_details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.typeH2{
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.typeP{
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.type_bookBtn{
+    background-color: #fb8122;
+    line-height: 3.2rem;
+    font-size: .7rem;
+    color: white;
+    border: none;
+    width: 40%;
+    letter-spacing: .16rem;
+}
+
+.view_bookBtn{
+    background-color: #fb8122;
+    line-height: 2.2rem;
+    font-size: .8rem;
+    color: white;
+    border: none;
+    width: 25%;
+    letter-spacing: .12rem;
+}
+

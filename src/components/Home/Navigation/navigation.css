@@ -1,9 +1,16 @@
 .mainNav{
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 95%;
 }
 
@@ -12,17 +19,17 @@
     align-items: center;
 }
 
-.navBar{
-    display: flex;
-    justify-content: space-between;
-}
-
 .hotelLogo{
    align-items: center;
    display: flex;
+   width: 15%;
 }
 .hotelLogo img{
     width: 10rem;
+}
+
+.navList{
+    width: 65%;
 }
 
 .navList ul{
@@ -51,6 +58,7 @@
     color: white;
     border: #fb8122;
     line-height: 2.3rem;
+    letter-spacing: .1rem;
 }
 .bookNowbtn:hover{
     background-color: #005247;

@@ -31,7 +31,6 @@ function Intro (){
                     </div>
                 </div>  
             </div>
-            <div className="grayArea"></div>
         </div>
     )
 }

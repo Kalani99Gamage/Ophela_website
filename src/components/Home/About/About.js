@@ -7,7 +7,7 @@ import boy from "../../../images/boy.jpg";
 function About () {
     return(
         <React.Fragment>
-            <div className="about">
+            <div className="about_main">
                 <div className="aboutStaff">
                     <img className="staffImg" src={girl} alt="staffImage" />
                     <div className="staffDecribe">

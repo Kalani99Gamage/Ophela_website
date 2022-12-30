@@ -1,6 +1,8 @@
 .servicesMain{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 30vh;
 }
 
 .services{
@@ -39,6 +41,8 @@
 .amenitiesWrapper{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 60vh;
 }
 
 .amenities{

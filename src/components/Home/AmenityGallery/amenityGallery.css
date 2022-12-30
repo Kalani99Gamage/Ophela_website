@@ -44,8 +44,15 @@
     background-color: #e1e2e2;
 }
 
+.picMoreBtn_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
 .picMoreBtn{
-    width: 15%;
+    width: 15vw;
     text-align: center;
     font-size: .9rem;
     line-height: 2.3rem;
